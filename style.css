@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+#contenedor{
+    width: 700px;/*ancho*/
+    height: 500px;/*alto*/
+    position: absolute;
+    inset: 0; /*pone a 0 todos los margenes*/
+    margin: auto; /*centra el contenedor*/
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#formulario{
+    background-color:rgb(253, 240, 240) ;
+    width: 50%; /*actualiza el elemento der*/
+    height: 100%;/*actualiza el alto*/
+    float: left; /*actualiza el elemento a la izq*/
+}
+#detalle {
+    background-color: #FF416C;
+    width: 50%;
+    height: 100%;/*actualiza el alto*/
+    float: left;
+    color: rgb(246, 235, 235);
+    
+}
+/*--------------Yo agregue------------------*/
+/*.texto{
+    text-align: left; 
+}*/
+
+.contenido{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+    
+}
+input{
+    background-color: rgb(251, 232, 232);
+    padding: 10px 15px;
+    border: none; /*no quiero vorde*/
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    /*display: block;
+    margin: auto;*/
+    margin-bottom: 15px;
+
+}
+button{
+    padding: 8px 12px;
+    font-size: 15px;
+    text-transform: uppercase; /*mayuscula*/
+    font-weight: bold;/*negrita*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FF416C;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+}
+#volumen{
+    color: #da2851;
+    font-size: 20px;
+    font-weight: bold;
+}
