@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+#contenedor{
+    width: 700px;/*ancho*/
+    height: 500px;/*alto*/
+    text-align: center;
+    position: absolute;
+    inset: 0; /*pone a 0 todos los margenes*/
+    margin: auto; /*centra el contenedor*/
+    box-shadow: 2px 4px 10px 5px rgb(39, 39, 39);
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);*/
+    background-color: rgb(228, 228, 228);
+
+}
+#formulario{
+    background-color: #E6F5FA ;
+    width: 50%; /*actualiza el elemento der*/
+    height: 100%;/*actualiza el alto*/
+    float: left; /*actualiza el elemento a la izq*/
+    color: #132B34;
+    
+}
+#detalle {
+    background-color: #132B34;
+    width: 50%;
+    height: 100%;/*actualiza el alto*/
+    float: left;
+    color: #E6F5FA;
+    
+}
+/*--------------Yo agregue------------------*/
+.texto{
+    text-align: left; 
+}
+
+.contenido{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+    
+}
+input{
+    background-color: white;
+    padding: 12px 15px;
+    border: none; /*no quiero vorde*/
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    /*display: block;
+    margin: auto;*/
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+button{
+    padding: 8px 12px;
+    font-size: 15px;
+    text-transform: uppercase; /*mayuscula*/
+    font-weight: bold;/*negrita*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: #132B34;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    transition: transform 20ms ease-in;
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.resultado{
+    background-color: white;
+    color: #132B34;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 30px 35px;
+    padding: 5px;
+    display: none;
+
+}
